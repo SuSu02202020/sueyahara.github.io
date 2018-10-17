@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Unit 12 | Assignment - Web Visualization Dashboard (Latitude)
 
 ## Background
@@ -108,3 +109,7 @@ Large screen:
 
 Small screen:
 ![nav menu small screen](Images/nav-sm.png)
+=======
+# sueyahara.github.io
+sueyahara.github.io
+>>>>>>> refs/remotes/origin/master
