@@ -3,64 +3,64 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Bootstrap Visualization Dashboard</title>
-  <link rel="stylesheet" href = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <title>Web Visualization Dashboard</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href = "styles.css">
-  <style>
-        body {background-color:rgb(226, 225, 225)}
-  </style>
 </head>
 
-
 <body>
-        <nav class="navbar navbar-expand-lg">
-                <div class="container-fluid">
-                  <!-- Brand and toggle get grouped for better mobile display -->
-                  <div class="navbar-header">
-                    <a class="navbar-brand" href="index.html">Lattitude</a>
-                  </div>
-                    <ul class="nav navbar-nav navbar-right">
-                      <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                          <li><a href="maxtemp.html">Max Temperature</a></li>
-                          <li><a href="humidity.html">Humidity</a></li>
-                          <li><a href="cloudiness.html">Cloudiness</a></li>
-                          <li><a href="windspeed.html">Wind Speed</a></li>
-                        </ul>
-                      </li>
-                      <li><a href="comparison.html">Comparison</a></li>
-                      <li><a href="data.html">Data</a></li>
+    <nav class="navbar navbar-bar">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="index.html">Latitude</a>
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Plots
+                    <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="maxtemp.html">Max Temperature</a></li>
+                      <li><a href="humidity.html">Humidity</a></li>
+                      <li><a href="cloudiness.html">Cloudiness</a></li>
+                      <li><a href="windspeed.html">Wind Speed</a></li>
                     </ul>
-                  </div>
-                </div>
-        </nav>
-    <br>
-    <br>
-    <br>
-
-    <div class="container">   
-        <div class="title">
-            <h1>Data</h1>
-            <p>The following data includes all the data used for plotting during this project.</p>
-            <hr>
-            <br> 
-   
-
-<table id= "maintable" border="1" class="dataframe"></table>
-<table class="table table-bordered table-hover table-condensed">
-<thead><tr><th title="Field #1">City_ID</th>
-<th title="Field #2">City</th>
-<th title="Field #3">Cloudiness</th>
-<th title="Field #4">Country</th>
-<th title="Field #5">Date</th>
-<th title="Field #6">Humidity</th>
-<th title="Field #7">Lat</th>
-<th title="Field #8">Lng</th>
-<th title="Field #9">Max Temp</th>
-<th title="Field #10">Wind Speed</th>
-</tr></thead>
-<tbody><tr>
+                </li>
+                <li><a href="comparison.html">Comparison</a></li>
+                <li><a href="data.html">Data</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>         
+  <br>
+  <br>
+  
+<div class="container">   
+<div class="title">
+      <h1>Data</h1>
+      <hr>
+      <br>
+      <p>The following data includes all the data used for plotting during this project.</p>
+      <br>
+    
+      <table class="table table-bordered table-striped table-responsive">
+<thead>
+  <tr>
+  <th title="Field #1">City_ID</th>
+  <th title="Field #2">City</th>
+  <th title="Field #3">Cloudiness</th>
+  <th title="Field #4">Country</th>
+  <th title="Field #5">Date</th>
+  <th title="Field #6">Humidity</th>
+  <th title="Field #7">Lat</th>
+  <th title="Field #8">Lng</th>
+  <th title="Field #9">Max Temp</th>
+  <th title="Field #10">Wind Speed</th>
+</tr>
+</thead>
+<tbody>
+<tr>
 <td align="right">0</td>
 <td>jacareacanga</td>
 <td align="right">0</td>
@@ -6624,4 +6624,8 @@
 <td align="right">42.43</td>
 <td align="right">2.62</td>
 </tr>
-</tbody></table>
+</tbody>
+</table>
+</body>
+</html>
+                
